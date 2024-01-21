@@ -1,0 +1,56 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.App{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 40px;
+}
+.App h1{
+    font-size: 40px;
+    text-shadow: 0px 0px 20px gray;
+}
+.text{
+    width: 60%;
+    background-color: grey ;
+    padding: 10px;
+}
+.test{
+    width: 60%;
+    background-color: grey ;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+.test div{
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test button{
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+}
+.test input{
+    width: 80%;
+    height: 10vh;
+    font-size: 25px;
+    padding: 0px 10px;
+    background-color: rgba(181, 178, 178, 0.4);
+    border-radius: 5px;
+    color: white;
+}
+.score{
+    font-size: 35px;
+}
